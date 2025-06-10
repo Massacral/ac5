@@ -1,0 +1,12 @@
+#include<stdio.h> // Inclui a biblioteca padrão de entrada e saída
+
+int main(){ // Função principal onde a execução do programa começa
+
+    int a = 1;     // Declara e inicializa a variável inteira 'a' com o valor 1
+    float b = 3.0; // Declara e inicializa a variável de ponto flutuante 'b' com o valor 3.0
+
+    // Imprime os valores de 'a' e 'b' formatados na tela
+    printf("a = %d, b = %f \n", a, b);
+
+    return 0; // Indica que o programa foi executado com sucesso
+} 
